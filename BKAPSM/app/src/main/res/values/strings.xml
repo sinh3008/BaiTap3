@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BKAP</string>
+    <string name="_1990_01_01">(1990-01-01)</string>
+    <string name="nam">Nam</string>
+    <string name="n">Nữ</string>
+    <string name="t_n_sinh_vi_n">Tên sinh viên</string>
+    <string name="gi_i_t_nh">Giới tính</string>
+    <string name="email">Email</string>
+    <string name="ng_y_sinh">Ngày sinh</string>
+    <string name="s_i_n_tho_i">Số điện thoại</string>
+    <string name="th_m">Thêm</string>
+    <string name="x_a">Xóa</string>
+    <string name="s_a">Sửa</string>
+    <string name="name_student">Name Student</string>
+    <string name="search">Search</string>
+    <string name="java">Java</string>
+    <string name="l_xu_n_sinh">Lê Xuân Sinh</string>
+    <string name="_2001_01_20">2001-01-20</string>
+    <string name="_0987654321">0987654321</string>
+    <string name="abc_gmail_com">abc@gmail.com</string>
+    <string name="todo">TODO</string>
+</resources>

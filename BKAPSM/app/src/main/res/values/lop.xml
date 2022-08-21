@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lop">
+        <item>Lớp Java</item>
+        <item>Lớp PHP</item>
+        <item>Lớp Android</item>
+    </string-array>
+</resources>

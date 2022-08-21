@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".activity.SinhVienActivity">
+
+    <EditText
+        android:id="@+id/txtTensv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/t_n_sinh_vi_n"
+        android:inputType="textCapWords"
+        android:minHeight="48dp"
+        android:autofillHints="" />
+
+    <Spinner
+        android:id="@+id/spLop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/lop"
+        android:minHeight="48dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gi_i_t_nh"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radNam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/nam" />
+
+            <RadioButton
+                android:id="@+id/radNu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="@string/n" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:inputType="textEmailSubject"
+        android:minHeight="48dp"
+        android:autofillHints="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtNgaysinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/ng_y_sinh"
+            android:inputType="none"
+            android:textColorHint="#757575"
+            tools:ignore="TouchTargetSizeCheck"
+            android:autofillHints="" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txtSdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/s_i_n_tho_i"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        android:autofillHints="" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnThem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/th_m"
+            style="?android:attr/buttonBarButtonStyle"></Button>
+
+        <Button
+            android:id="@+id/btnSua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="true"
+            android:text="@string/s_a"
+            style="?android:attr/buttonBarButtonStyle"></Button>
+
+        <Button
+            android:id="@+id/btnXoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="true"
+            android:text="@string/x_a"
+            style="?android:attr/buttonBarButtonStyle"></Button>
+    </LinearLayout>
+</LinearLayout>
